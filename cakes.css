@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 229, 229); 
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+.cakes{
+    display: flex;
+    margin: 40px;
+}
+.cake{
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(250, 205, 205);
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(199, 125, 125, 0.737);
+    transition: transform 0.3sease , box-shadow 0.3s ease;
+}
+.cake:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0 , 0 , 0 , 0.15);
+    cursor:pointer; 
+}
+h2{
+    text-align: center;
+    
+}
